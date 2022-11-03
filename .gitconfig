@@ -1,0 +1,25 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+	pager = less -R --tabs=4
+[user]
+	name = Alexandr Malykh
+	email = sanko33mavr@ya.ru
+[alias]
+	st = status
+	df = diff
+	dfs = diff --staged
+
+	clone1 = clone --depth=1
+
+	br = branch
+	co = checkout
+
+	addp = add --patch
+	amend = commit --amend
+	undo = reset --soft HEAD~1
+
+	loga = log --all --oneline --graph
+[merge]
+	tool = nvimdiff

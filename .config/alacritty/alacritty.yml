@@ -1,0 +1,36 @@
+# 0.12.2
+
+
+window:
+  decorations: none
+  startup_mode: Maximized
+
+
+scrolling:
+  history: 10000
+  multiplier: 10
+
+
+draw_bold_text_with_bright_colors: true
+
+
+shell:
+  program: /bin/bash
+  args:
+     - -l
+     - -c
+     - tmux a || tmux
+
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+
+cursor:
+  unfocused_hollow: true
+
+
+import:
+  - ~/.config/alacritty/font.yml
+  - ~/.config/alacritty/key_bindings.yml
