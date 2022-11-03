@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+	pager = less -R
+[user]
+	name = Alexandr Malykh
+	email = sanko33mavr@ya.ru
