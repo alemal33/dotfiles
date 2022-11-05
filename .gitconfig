@@ -6,3 +6,10 @@
 [user]
 	name = Alexandr Malykh
 	email = sanko33mavr@ya.ru
+[alias]
+	st = status
+	df = diff
+	dfs = diff --staged
+
+	addp = add --patch
+	amend = commit --amend
