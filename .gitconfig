@@ -13,3 +13,4 @@
 
 	addp = add --patch
 	amend = commit --amend
+	undo = reset --soft HEAD~1
