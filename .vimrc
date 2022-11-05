@@ -35,6 +35,7 @@ set history=200
 syntax on
 filetype plugin indent on
 colorscheme everforest
+set background=dark
 "
 " shortcuts
 "
