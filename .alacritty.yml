@@ -1,0 +1,24 @@
+# 0.9.0
+window:
+  decorations: none
+  startup_mode: Maximized
+  gtk_theme_variant: dark
+
+scrolling:
+  history: 10000
+  multiplier: 10
+
+font:
+  size: 9.0
+
+draw_bold_text_with_bright_colors: true
+
+shell:
+  program: /bin/bash
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+cursor:
+  unfocused_hollow: true
