@@ -2,7 +2,7 @@
 	defaultBranch = main
 [core]
 	editor = vim
-	pager = less -R
+	pager = less -R --tabs=4
 [user]
 	name = Alexandr Malykh
 	email = sanko33mavr@ya.ru
