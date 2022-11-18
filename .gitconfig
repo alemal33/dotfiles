@@ -11,6 +11,9 @@
 	df = diff
 	dfs = diff --staged
 
+	br = branch
+	co = checkout
+
 	addp = add --patch
 	amend = commit --amend
 	undo = reset --soft HEAD~1
