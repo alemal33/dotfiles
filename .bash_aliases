@@ -11,5 +11,5 @@ alias mv='mv -i'
 
 alias ls='ls --color=auto'
 alias la='ls -laph'
-alias l='ls -lApGh'
+alias l='ls -lph'
 alias ld='ls -ldh'
