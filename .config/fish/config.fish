@@ -3,6 +3,10 @@ if test -e ~/.bash_aliases
 end
 
 function fish_prompt --description 'Write out the prompt'
+		echo (set_color green --bold)'$ ' 
+end
+
+function fish_right_prompt -d "Write out the right prompt"
     set -l last_pipestatus $pipestatus
     set -lx __fish_last_status $status # Export for __fish_print_pipestatus.
     set -l normal (set_color normal)
@@ -21,10 +25,8 @@ function fish_prompt --description 'Write out the prompt'
     set -l statusb_color (set_color $bold_flag $fish_color_status)
     set -l prompt_status (__fish_print_pipestatus "[" "]" "|" "$status_color" "$statusb_color" $last_pipestatus)
 
-		set -g fish_prompt_pwd_dir_length 0
     set -l color_cwd (set_color $fish_color_cwd)
-    set -l suffix (set_color green --bold)'$'
+		set -g fish_prompt_pwd_dir_length 0
 
-    echo -s " " $color_cwd (prompt_pwd) $normal (fish_vcs_prompt) $normal " " $prompt_status
-		echo -n $suffix $normal
+    echo -s $prompt_status ' ' $color_cwd (prompt_pwd) $normal (fish_vcs_prompt) ' '
 end
