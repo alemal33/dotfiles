@@ -1,4 +1,8 @@
 # 0.9.0
+
+env:
+  TERM: xterm-256color
+
 window:
   decorations: none
   startup_mode: Maximized
