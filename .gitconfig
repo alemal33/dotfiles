@@ -1,7 +1,7 @@
 [init]
 	defaultBranch = main
 [core]
-	editor = vim
+	editor = nvim
 	pager = less -R --tabs=4
 [user]
 	name = Alexandr Malykh

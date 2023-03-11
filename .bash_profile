@@ -11,6 +11,6 @@ fi
 BASH_ENV=$HOME/.bashrc
 export BASH_ENV 
 
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 export PAGER=less
