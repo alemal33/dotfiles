@@ -1,8 +1,8 @@
-# 0.9.0
+# 0.12.0-rc2
 window:
   decorations: none
   startup_mode: Maximized
-  gtk_theme_variant: dark
+  decoration_theme_variant: dark
 
 scrolling:
   history: 10000
