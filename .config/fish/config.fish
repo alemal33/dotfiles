@@ -1,8 +1,10 @@
+set -g fish_greeting
+
 if test -e ~/.bash_aliases
 	source ~/.bash_aliases
 end
 
-function fish_prompt --description 'Write out the prompt'
+function fish_prompt -d 'Write out the prompt'
 		echo (set_color green --bold)'$ ' 
 end
 
