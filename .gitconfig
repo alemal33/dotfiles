@@ -11,6 +11,8 @@
 	df = diff
 	dfs = diff --staged
 
+	clone1 = clone --depth=1
+
 	br = branch
 	co = checkout
 
