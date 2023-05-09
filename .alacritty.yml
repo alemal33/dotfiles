@@ -1,19 +1,39 @@
-# 0.12.0-rc2
+# 0.12.0
+
+
 window:
   decorations: none
   startup_mode: Maximized
-  decoration_theme_variant: dark
+
 
 scrolling:
   history: 10000
   multiplier: 10
 
+
 font:
-  normal:
-    family: 'DejaVuSansMono Nerd Font Mono'
-  size: 9.0
+
+  # normal: 
+  #   family: DejaVuSansM Nerd Font Mono
+  #   style: Regular
+  #
+  # bold: 
+  #   family: DejaVuSansM Nerd Font Mono
+  #   style: Bold
+  #
+  # italic: 
+  #   family: DejaVuSansM Nerd Font Mono
+  #   style: Oblique
+  #
+  # bold_italic: 
+  #   family: DejaVuSansM Nerd Font Mono
+  #   style: Bold Oblique
+
+  size: 10
+
 
 draw_bold_text_with_bright_colors: true
+
 
 shell:
   program: /bin/bash
@@ -22,12 +42,15 @@ shell:
      - -c
      - tmux a || tmux
 
+
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
 
+
 cursor:
   unfocused_hollow: true
+
 
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
