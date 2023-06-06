@@ -24,7 +24,6 @@ call plug#end()
 "
 set rnu
 set number
-set patchmode=.backup
 set autoindent
 set hlsearch
 set cursorline
