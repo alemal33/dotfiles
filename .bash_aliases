@@ -1,6 +1,5 @@
-alias ping='ping -c 5'
-alias pingg='ping google.com'
-alias pingy='ping ya.ru'
+alias pingy='ping -c 5 ya.ru'
+alias pingg='ping -c 5 google.com'
 
 alias grep='grep --color=auto'
 alias egrep='grep -E'

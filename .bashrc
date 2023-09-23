@@ -11,3 +11,5 @@ if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
 
+# export MANGOHUD_CONFIG=no_display
+export MANGOHUD=1

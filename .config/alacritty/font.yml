@@ -1,0 +1,19 @@
+font:
+
+  normal:
+    family: DejaVuSansM Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: DejaVuSansM Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: DejaVuSansM Nerd Font Mono
+    style: Oblique
+
+  bold_italic:
+    family: DejaVuSansM Nerd Font Mono
+    style: Bold Oblique
+
+  size: 10
